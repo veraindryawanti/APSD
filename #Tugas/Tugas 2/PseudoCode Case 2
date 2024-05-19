@@ -1,0 +1,34 @@
+*Program Hitung Nilai Akhir Kursus*
+
+*Input:*
+  * Nama Siswa: String
+  * Nilai Keaktifan: Float
+  * Nilai Tugas: Float
+  * Nilai Ujian: Float
+
+*Proses:*
+  1. *Tampilkan Layar Masukkan:*
+    * "PROGRAM HITUNG NILAI AKHIR"
+    * "Nama Siswa :"
+    * "Nilai Keaktifan :"
+    * "Nilai Tugas :"
+    * "Nilai Ujian :"
+  2. *Baca input:*
+    * Nama Siswa
+    * Nilai Keaktifan
+    * Nilai Tugas
+    * Nilai Ujian
+  3. *Hitung nilai murni:*
+    * Nilai Murni Keaktifan = Nilai Keaktifan * 20%
+    * Nilai Murni Tugas = Nilai Tugas * 50%
+    * Nilai Murni Ujian = Nilai Ujian * 30%
+  4. *Hitung nilai akhir:*
+    * Nilai Akhir = Nilai Murni Keaktifan + Nilai Murni Tugas + Nilai Murni Ujian
+  5. *Tampilkan Layar Keluaran:*
+    * "Siswa yang bernama ......"
+    * "Dengan Nilai Persentasi Yang dihasilkan."
+      * Ganti "...." dengan nilai yang sesuai
+    * "Nilai Keaktifan * 20% : ......"
+    * "Nilai Tugas * 50% : ......"
+    * "Nilai Ujian * 30% : ......"
+    * "Jadi Siswa yang bernama ...... memperoleh nilai akhir sebesar ......"
